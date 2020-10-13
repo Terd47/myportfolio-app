@@ -25,5 +25,9 @@ footer{
     color: grey;
 }
 .notification {
-    background-color:  rgb(62, 193, 226) !important;
+    background-color:  #33415c !important;
+}
+#portfolio {
+    margin: 10px;
+    padding: 10px;
 }
