@@ -9,10 +9,10 @@
 </head>
 <body>
   <!-- navigation bar -->
+  <section class="is-primary">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div>
-              <!-- site logo -->
                 <img src="/Assets/images/hexagon-code.png" alt="Hex-image" width="30px">
             </div>
             <div class="menu-items">
@@ -20,9 +20,13 @@
               Doh Terdlar
           </a></div>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-          <!-- site links to other pages -->
+        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div class="navbar-end">
           <div class="navbar-start">
+             <div class="menu-items">
+            <a class="navbar-item" href="">
+              <span id="time"></span>
+            </a></div>
               <div class="menu-items">
             <a class="navbar-item" href="/portfolio.html">
               Portfolio
@@ -37,15 +41,17 @@
               </a></div> 
           </div>
         </div>
+      </div>
     </nav>
+  </section>
 
     <!-- contact me form  -->
     <div class="container">
-      <div class="notification is-primary">
+      <div class="notification is-primary"  id="contact">
       <div class="field">
-          <h1 class="title">Get in touch</h1>
-        <p>
-       Wow, I am really happy that you made it this far. Thanks for your patience, please let's connect. You can easily
+          <h1 class="title" id="des">Get in touch</h1>
+        <p class="des">
+       Wow, really happy that you made it this far. Thanks for your patience, please let's connect. You can easily
        get in contact with me by filling this form. <br>I usually respond in less than 1 hour of recieving 
        your inquiry. Looking forward to hearing from you. Thanks again and have a nice day.
         </p>
@@ -75,7 +81,7 @@
       
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-link">Submit</button>
+          <button class="button is-link is-outlined">Submit</button>
         </div>
         <div class="control">
           <button class="button is-link is-light">Cancel</button>
@@ -85,7 +91,7 @@
   </div>
 
     <!-- page footer with credits -->
-    <footer class="footer">
+    <footer class="footer" id="footer1">
       <div class="content has-text-centered">
         <p>
           Designed and Developed by<strong> <span class="credit">Doh Terdlar</span></strong> <br>

@@ -9,10 +9,10 @@
 </head>
 <body>
   <!-- Main Navigation menu-->
+  <section class="is-primary">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div>
-              <!--site logo-->
                 <img src="/Assets/images/hexagon-code.png" alt="Hex-image" width="30px">
             </div>
             <div class="menu-items">
@@ -20,8 +20,13 @@
               Doh Terdlar
           </a></div>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div class="navbar-end">
           <div class="navbar-start">
+             <div class="menu-items">
+            <a class="navbar-item" href="">
+              <span id="time"></span>
+            </a></div>
               <div class="menu-items">
             <a class="navbar-item" href="/portfolio.html">
               Portfolio
@@ -36,21 +41,25 @@
               </a></div> 
           </div>
         </div>
+      </div>
     </nav>
+  </section>
 
     <main>
     <div class="container">
       <div class="colums is-mobile">
       <div class="notification is-primary">
+        <!-- page title -->
         <div>
           <h1 class="title" id="portfolio">Portfolio Projects</h1>
         </div>
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-one-quarter">
+        <!-- smart weather app -->
+        <div class="columns">
+          <div class="column">
             <div class="card" >
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/images/smart-city-app.png" alt="frontdev">
+                  <img src="./assets/images/smart-city-app.png" alt="Smart weather photo">
                 </figure>
               </div>
               <div class="card-content">
@@ -61,20 +70,21 @@
                     with appropriate icons which match the weather condition.
                   </p>
                   <span class="site-link">
-                    <a type="button" href="https://github.com/Terd47/smart-weather-app" target="_blank">Github Repo</a>
+                    <a type="button" class="button is-primary is-outlined" href="https://github.com/Terd47/smart-weather-app" target="_blank">Github Repo</a>
                   </span>
                   <span class="site-link">
-                    <a  type="button" href="https://terd47.github.io/smart-weather-app/" target="_blank">Live Site</a>
+                    <a  type="button" class="button is-primary is-outlined" href="https://terd47.github.io/smart-weather-app/" target="_blank">Live Site</a>
                   </span>  
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter">
+          <!-- WorkDay Scheduler app -->
+          <div class="column">
             <div class="card" >
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/images/work-day-scheduler.png" alt="frontdev">
+                  <img src="./assets/images/work-day-scheduler.png" alt="work scheduler photo">
                 </figure>
               </div>
               <div class="card-content">
@@ -85,22 +95,23 @@
                     with their matching times and stores them to local storage for easy retrieval.
                   </p>
                   <span class="site-link">
-                    <a type="button" href="https://github.com/Terd47/workday-scheduler-app" target="_blank">Github Repo</a>
+                    <a type="button" class="button is-primary is-outlined" href="https://github.com/Terd47/workday-scheduler-app" target="_blank">Github Repo</a>
                   </span>
                   <span class="site-link">
-                    <a type="button" href="https://terd47.github.io/workday-scheduler-app/" target="_blank">Live Site</a>
+                    <a type="button" class="button is-primary is-outlined" href="https://terd47.github.io/workday-scheduler-app/" target="_blank">Live Site</a>
                   </span>  
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter">
+          <div class="column">
             <div class="card" >
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/images/password-generator-app.png" alt="frontdev">
+                  <img src="./assets/images/password-generator-app.png" alt="password generator photo">
                 </figure>
               </div>
+              <!-- password generator app -->
               <div class="card-content">
                 <div class="content">
                   <h3>Password Generator</h3>
@@ -109,16 +120,18 @@
                     letters, numbers, and special characters.
                   </p>
                   <span class="site-link">
-                    <a type="button" href="https://github.com/Terd47/password-generator" target="_blank">Github Repo</a>
+                    <a type="button" class="button is-primary is-outlined" href="https://github.com/Terd47/password-generator" target="_blank">Github Repo</a>
                   </span>
                   <span class="site-link">
-                    <a type="button" target="_blank" href="https://terd47.github.io/password-generator/">Live Site</a>
+                    <a type="button" target="_blank" class="button is-primary is-outlined" href="https://terd47.github.io/password-generator/">Live Site</a>
                   </span>  
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter">
+        </div>
+        <div class="columns">
+          <div class="column">
             <div class="card" >
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -133,15 +146,22 @@
                     see upcoming holidays and liesure events
                   </p>
                   <span class="site-link">
-                    <a type="button" href="https://github.com/Terd47/smart-events-app" target="_blank">Github Repo</a>
+                    <a type="button" class="button is-primary is-outlined" href="https://github.com/Terd47/smart-events-app" target="_blank">Github Repo</a>
                   </span>
                   <span class="site-link">
-                    <a type="button" target="_blank" href="https://terd47.github.io/smart-events-app/">Live Site</a>
+                    <a type="button" target="_blank" class="button is-primary is-outlined " href="https://terd47.github.io/smart-events-app/">Live Site</a>
                   </span>  
                 </div>
               </div>
             </div>
           </div>
+          <div class="column">
+            <!-- Add new portfolio projects -->
+          </div>
+          <div class="column">
+            <!-- Add new portfolio projects -->
+          </div>
+        </div>
         </div>
       </div>
     </div>

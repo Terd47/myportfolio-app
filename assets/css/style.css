@@ -3,10 +3,6 @@
     padding: 20px;
     background-color: rgb(41, 38, 38);
 }
-.container {
-    position: relative;
-    min-height: 100%;
-}
 .navbar-item{
     color: floralwhite;
 }
@@ -17,25 +13,39 @@ footer{
     background-color: rgb(41, 38, 38) !important;
     color: grey;
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: 1px !important;
 }
+#footer1{
+    position: absolute;
+    width: 100%;
+}
+#contact{
+    background-color: #f0efeb !important;
+}
+
 .credit{
     color: grey;
 }
 .notification {
     background-color:  #33415c !important;
+    padding-bottom: 2.5rem;
 }
 #portfolio {
     margin: 10px;
     padding: 10px;
 }
+.des{
+    color: black;
+}
+#des{
+    color: black;
+}
 .site-link {
-     padding: 8px;
-     margin: 15px;
-     background-color: #051937;
-     border-radius: 10px;
+     padding: 5px;
+     margin: 5px;
+     background-color: #33415c ;
+     border-radius: 4px;
      color: lightcyan;
      text-decoration: none !important;
      display: inline-block;
@@ -49,6 +59,7 @@ main{
     border-radius:100px;
     width: 100%;
     height: 100%;
+    padding-bottom: 2.5rem;
 }
 .card:hover {
     transition: all .5s ease-in-out;
@@ -57,4 +68,9 @@ main{
 .card-image{
     box-shadow: 0 4px 8px 0 rgba(15, 3, 3, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
+}
+.hero{
+    background-image: url("../images/hero-image.jpg");
+    width: 2000px;
+    height: 700px;
 }

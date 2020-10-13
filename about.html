@@ -9,19 +9,24 @@
 </head>
 <body>
   <!-- navigation bar -->
+  <section class="is-primary">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div>
-              <!-- site logo -->
-                <img src="./assets/images/hexagon-code.png" alt="Hex-image" width="30px">
+                <img src="/Assets/images/hexagon-code.png" alt="Hex-image" width="30px">
             </div>
             <div class="menu-items">
           <a class="navbar-item" href="/index.html">
               Doh Terdlar
           </a></div>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div class="navbar-end">
           <div class="navbar-start">
+             <div class="menu-items">
+            <a class="navbar-item" href="">
+              <span id="time"></span>
+            </a></div>
               <div class="menu-items">
             <a class="navbar-item" href="/portfolio.html">
               Portfolio
@@ -36,7 +41,9 @@
               </a></div> 
           </div>
         </div>
+      </div>
     </nav>
+  </section>
 
     <!-- About me section and bio -->
     <div class="container">
@@ -53,9 +60,15 @@
                   <div class="tile is-child box">
                     <!-- links to important sites and pages -->
                     <p class="title">Connect With Me</p>
-                    <button class="button is-primary is-link  is-outlined is-medium is-fullwidth">GitHub</button>
-                    <button class="button is-link is-outlined is-medium is-fullwidth">LinkedIn</button>
-                    <button class="button is-primary is-link is-outlined is-medium is-fullwidth">YouTube</button>
+                    <div>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth" href="https://github.com/Terd47"><img src="./assets/images/github-icon.jpg" alt="github icon" width="70px">GitHub</a>
+                    </div>
+                    <div>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth" href="https://www.linkedin.com/in/doh-terdlar-9a17b61ab/"><img src="./assets/images/linkedin.png" alt="github icon" width="50px">LinkedIn</a>
+                    </div>
+                    <div>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber"><img src="./assets/images/youtube-icon.png" alt="github icon" width="50px">YouTube</a>
+                    </div>
                   </div>
                 </div>
                 <div class="tile is-parent">
@@ -83,12 +96,14 @@
                     <p>
                         Besides Coding, I also enjoy doing the following activities;
                     </p>
-                    <ul>
+                    <div class="content">
+                      <ul>
                         <li>Reading blog Posts from other developers and latest industry trends</li>
                         <li>Painting</li>
                         <li>Making YouTube Videos</li>
                         <li>kayaking and Hiking</li>
                     </ul>
+                    </div>
                     
                   </div>
                 </div>

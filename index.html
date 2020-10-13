@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Assets/Css/style.css">
 </head>
 <body>
+  <section class="is-primary">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <div>
@@ -18,8 +19,13 @@
               Doh Terdlar
           </a></div>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div class="navbar-end">
           <div class="navbar-start">
+             <div class="menu-items">
+            <a class="navbar-item" href="">
+              <span id="time"></span>
+            </a></div>
               <div class="menu-items">
             <a class="navbar-item" href="/portfolio.html">
               Portfolio
@@ -34,8 +40,36 @@
               </a></div> 
           </div>
         </div>
+      </div>
     </nav>
-    
+  </section>
+  <section class="hero is-primary is-medium">
+
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Doh Terdlar
+        </h1>
+        <h2 class="subtitle">
+         Full Stack Web Developer
+        </h2>
+      </div>
+    </div>
+  
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a>Technical Expertise</a></li>
+            <li><a>Familiar Technologies</a></li>
+            <li><a>CSS Frameworks</a></li>
+            <li><a type="button" target="_blank" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber">YouTube Channel</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
 
 
     <script src="Assets/Js/script.js"></script>
