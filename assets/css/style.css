@@ -1,0 +1,21 @@
+.navbar{
+    text-align: center !important;
+    padding: 20px;
+    background-color: rgb(41, 38, 38);
+}
+.navbar-item{
+    color: floralwhite;
+}
+.navbar-item:hover{
+    background-color: rgb(62, 193, 226) !important;
+}
+footer{
+    background-color: rgb(41, 38, 38) !important;
+    color: grey;
+}
+.credit{
+    color: grey;
+}
+.notification {
+    background-color:  rgb(62, 193, 226) !important;
+}
