@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="Assets/Css/style.css">
 </head>
 <body>
+  <!--Navigation starts here-->
   <section class="is-primary">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -22,20 +24,16 @@
         <div id="navbarMenuHeroA" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-start">
-             <div class="menu-items">
-            <a class="navbar-item" href="">
-              <span id="time"></span>
-            </a></div>
               <div class="menu-items">
-            <a class="navbar-item" href="/portfolio.html">
+            <a class="navbar-item" href="./portfolio.html">
               Portfolio
             </a></div>
             <div class="menu-items">
-            <a class="navbar-item" href="/contact.html">
+            <a class="navbar-item" href="./contact.html">
               Contact
             </a></div>
             <div class="menu-items">
-                <a class="navbar-item" href="/about.html">
+                <a class="navbar-item" href="./about.html">
                 About
               </a></div> 
           </div>
@@ -43,35 +41,51 @@
       </div>
     </nav>
   </section>
-  <section class="hero is-primary is-medium">
-
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">
-          Doh Terdlar
-        </h1>
-        <h2 class="subtitle">
-         Full Stack Web Developer
-        </h2>
+  <!--Navigation ends here-->
+   <!--Hero Image-->
+  <section class="bgimage">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-12 col-sm-12 col-xs-12" id="mytext">
+          <div class="title">
+            Doh Terdlar
+          </div>
+          <div class="subtitle"id="type">
+           Full Stack Web Developer 
+          </div>
+        </div>
       </div>
     </div>
-  
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <nav class="tabs">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a>Technical Expertise</a></li>
-            <li><a>Familiar Technologies</a></li>
-            <li><a>CSS Frameworks</a></li>
-            <li><a type="button" target="_blank" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber">YouTube Channel</a></li>
-          </ul>
-        </div>
-      </nav>
+  </section>
+  <section>
+    <div class="container">
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a id="expertise">Skills</a></li>
+              <li><a id="technologies">Familiar Technologies</a></li>
+              <li><a id="frameworks">CSS Frameworks</a></li>
+              <li><a type="button" target="_blank" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber">YouTube Channel</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </section>
 
+  
+    <!-- page footer with credits -->
+    <footer class="footer" id="footer1">
+      <div class="content has-text-centered">
+        <p>
+          Designed and Developed by<strong> <span class="credit">Doh Terdlar</span></strong> <br>
+          All rights Reserved
+        </p>
+      </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="Assets/Js/script.js"></script>
 </body>
 </html>

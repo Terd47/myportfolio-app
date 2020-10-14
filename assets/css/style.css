@@ -69,8 +69,46 @@ main{
     box-shadow: 0 4px 8px 0 rgba(15, 3, 3, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
 }
-.hero{
-    background-image: url("../images/hero-image.jpg");
-    width: 2000px;
-    height: 700px;
+.bgimage{
+    width:100%;
+  height:780px;
+  background: url('../images/hero-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+#mytext{
+    text-align: center;
+    background-position: center center;
+    padding-top: 293px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#type{
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation:typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 30% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
 }
