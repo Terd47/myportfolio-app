@@ -4,75 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
   <!--Navigation starts here-->
   <section class="is-primary">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation" aria-label="main navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="navbar-brand">
-            <div>
-                <img src="./assets/images/hexagon-code.png" alt="Hex-image" width="30px">
-            </div>
-            <div class="menu-items">
-          <a class="navbar-item" href="./index.html">
-              Doh Terdlar
-          </a></div>
+          <img src="./assets/images/hexagon-code.png" alt="Hex-image" width="40px">
         </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-        <div class="navbar-end">
-          <div class="navbar-start">
-              <div class="menu-items">
-            <a class="navbar-item" href="./portfolio.html">
-              Portfolio
-            </a></div>
-            <div class="menu-items">
-            <a class="navbar-item" href="./contact.html">
-              Contact
-            </a></div>
-            <div class="menu-items">
-                <a class="navbar-item" href="./about.html">
-                About
-              </a></div> 
-          </div>
+        <div class="menu-items">
+        <a class="navbar-brand navbar-item nav-link" href="./index.html">Doh Terdlar</a>
+        </div>
+        <div id="navbarMenuHeroA">
+           <div class="navbar-end">
+             <div class="navbar-start">
+              <div class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-end">
+                  <div class="nav-item menu-items">
+                    <a class="nav-link active navbar-item" href="./index.html">Home</a>
+                  </div>
+                  <div class="nav-item menu-items">
+                    <a class="nav-link active navbar-item" href="./portfolio.html">Portfolio</a>
+                  </div>
+                  <div class="nav-item menu-items">
+                    <a class="nav-link active navbar-item" href="./contact.html">Contact</a>
+                  </div>
+                  <div class="nav-item menu-items">
+                    <a class="nav-link active navbar-item" href="./about.html">About</a>
+                  </div>
+              </div>
+            </div>
+              </div>
+            </div>
         </div>
       </div>
     </nav>
   </section>
   <!--Navigation ends here-->
    <!--Hero Image-->
-  <section class="bgimage">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-12 col-sm-12 col-xs-12" id="mytext">
-          <div class="title">
-            Doh Terdlar
+   <div class="jumbotron jumbotron-fluid bgimage">
+    <img src="./assets/images/hero-image.jpg" class="img-fluid" alt="Responsive image">
+    <div class="container-fluid col-12 col-md-12 col-sm-12 col-xs-12" id="mytext">
+      <div>
+      <h1 class="display-4 title">Doh Terdlar</h1>
+      <p class="lead" id="type">Full Stack Web Developer</p>
+    </div>
+    </div>
+    <div class="container ">
+      <div class="notification is-primary">
+        <div class="skills">
+          <p class="title">Technical Expertise</p>
+        </div>
+        <div class="columns is-desktop">
+          <div class="column box">
+            <div class="content">
+              <h2>Front End Development</h2>
+            </div>
+            <p>Experience working with front end technologies to design and develope mobile friendly applications using;</p>
+            <div class="content">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Ajax</li>
+              </ul>
+            </div>
+
           </div>
-          <div class="subtitle"id="type">
-           Full Stack Web Developer 
+          <div class="column box">
+            <div class="content">
+              <h2>Back End Development</h2>
+            </div>
+            <p>Experience using popular backend technologies to develope backend applications and connecting
+              them to the client side. Some include;
+            </p>
+            <div class="content">
+              <ul>
+                <li>Node.js</li>
+                <li>Node libraries</li>
+              </ul>
+            </div>
+          </div>
+          <div class="column box">
+            <div class="content">
+              <h2>Familiar Framesworks</h2>
+            </div>
+            <p>Experience using popular frameworks to design different User interfaces and layouts and developing 
+              mobile friendly applications to deliver greate user experience </p>
+            <div class="content">
+              <ul>
+                <li>jQuery</li>
+                <li>Bootstrap 4</li>
+                <li>Bulma CSS</li>
+                <li>materialize CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="column box">
+            <div class="content">
+              <h2>Languages</h2>
+            </div>
+            <p>Experience working with front end technologies to design and develope mobile friendly applications using;</p>
+            <div class="content">
+              <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="hero-foot">
-        <nav class="tabs">
-          <div class="container">
-            <ul>
-              <li class="is-active"><a id="expertise">Skills</a></li>
-              <li><a id="technologies">Languages</a></li>
-              <li><a id="frameworks">Frameworks</a></li>
-              <li><a type="button" target="_blank" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber">YouTube Channel</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </section>
+     </div>
+  </div>
+
 
   
     <!-- page footer with credits -->
@@ -86,6 +136,9 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

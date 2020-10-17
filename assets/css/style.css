@@ -1,7 +1,11 @@
 .navbar{
     text-align: center !important;
     padding: 20px;
-    background-color: rgb(41, 38, 38);
+    background-color: rgb(41, 38, 38) !important;
+    color: blanchedalmond !important;
+}
+.nav-link {
+    color: floralwhite!important;
 }
 .navbar-item{
     color: floralwhite;
@@ -70,19 +74,32 @@ main{
     border-radius: 20px;
 }
 .bgimage{
-    width:100%;
-  height:780px;
-  background: url('../images/hero-image.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  padding-top: 0px;
+  position: relative;
+  max-width: 100%;
+}
+.skills {
+    text-align: center !important;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.box{
+    padding: 5px;
+    margin: 7px;
 }
 #mytext{
     text-align: center;
-    background-position: center center;
-    padding-top: 293px;
     font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 #type{
     display: inline-block;
