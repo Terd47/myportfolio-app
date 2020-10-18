@@ -32,12 +32,15 @@ footer{
     color: grey;
 }
 .notification {
-    background-color:  #33415c !important;
+    background-color:  #f0efeb !important;
     padding-bottom: 2.5rem;
 }
 #portfolio {
     margin: 10px;
     padding: 10px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(15, 3, 3, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 280px;
 }
 .des{
     color: black;
