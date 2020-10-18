@@ -1,16 +1,8 @@
 .navbar{
     text-align: center !important;
+    padding: 20px;
     background-color: rgb(41, 38, 38) !important;
     color: blanchedalmond !important;
-    height: 50px !important;
-}
-.navbar-brand{
-    padding-left: 0px;
-    margin-left: 0px;
-}
-.brand-image{
-    padding: 5px;
-    margin: px;
 }
 .nav-link {
     color: floralwhite!important;
@@ -52,6 +44,15 @@ footer{
 }
 #des{
     color: black;
+}
+.site-link {
+     padding: 5px;
+     margin: 5px;
+     background-color: #33415c ;
+     border-radius: 4px;
+     color: lightcyan;
+     text-decoration: none !important;
+     display: inline-block;
 }
 .site-link:hover{
     transition: all .3s ease-in-out;
