@@ -30,6 +30,8 @@ footer{
 
 .credit{
     color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 .notification {
     background-color:  #f0efeb !important;
@@ -37,10 +39,25 @@ footer{
 }
 #portfolio {
     margin: 10px;
-    padding: 10px;
+    padding-bottom: 10px;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(15, 3, 3, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 280px;
+    width: 360px;
+    border-radius: 20px;
+    background-color: #48cae4;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+.navbar-toggler{
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden;
+}
+#tech{
+    color: black;
 }
 .des{
     color: black;
@@ -68,7 +85,7 @@ main{
     height: 100%;
     padding-bottom: 2.5rem;
 }
-.card:hover {
+.cards:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.1);
 }
@@ -82,18 +99,28 @@ main{
   background-size:cover;
   background-attachment: fixed;
   padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
   position: relative;
   max-width: 100%;
+}
+.space{
+    padding-top: 0px;
+    margin: 0px;
 }
 .skills {
     text-align: center !important;
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 5px;
-    margin: 5px;
+    padding-bottom: 10px;
+    margin: 10px;
+    color: black;
 }
 .box{
     padding: 5px;
     margin: 7px;
+}
+.hero{
+    width: 100%;
 }
 #mytext{
     text-align: center;
@@ -132,3 +159,37 @@ main{
         border-color: orange; 
     }
 }
+@media only screen and (max-width: 700px) {
+
+    .typo{
+        font-size: 22px;
+    }
+    #type{
+        font-size: 20px;
+        
+    }
+    footer{
+        position: relative;
+    }
+    @keyframes typing {
+        from { 
+            width: 0% 
+        }
+        to { 
+            width: 50% 
+        }
+    }
+    
+    @keyframes blink {
+        from, to { 
+            border-color: transparent 
+        }
+        50% { 
+            border-color: orange; 
+        }
+    }
+    .navbar-toggler{
+        visibility: visible;
+    }
+    
+  }
