@@ -5,7 +5,7 @@
  As i work on more projects, this app will frequently be updated with their descriptions, motivation for the project, problem it solves and links to the deployed site and repositories.
 
 
-[Live site](ttps://terd47.github.io/myportfolio-app/)
+[Live site](ttps://terd47.github.io/myportfolio-app/)https://terd47.github.io/myportfolio-app/
 
 [Repository](https://github.com/Terd47/myportfolio-app)
 
