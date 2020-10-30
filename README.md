@@ -4,6 +4,13 @@
  # Update Frequency
  As i work on more projects, this app will frequently be updated with their descriptions, motivation for the project, problem it solves and links to the deployed site and repositories.
 
+# Technologies used
+### HTML
+### CSS
+### Javascript
+### Bootstrap
+### Bulma CSS
+
 
 [Live site](ttps://terd47.github.io/myportfolio-app/)https://terd47.github.io/myportfolio-app/
 
