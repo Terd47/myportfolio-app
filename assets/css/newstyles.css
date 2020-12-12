@@ -1,0 +1,141 @@
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #1EA1DA, #12EBE2);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 60px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.skills{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    margin-top: 40px;
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left:650px;
+    border-radius: 40%;
+    transform: rotate(0deg);
+    transition: 1s ;
+    /* background: #ccc; */
+}
+.technologies img {
+    width: 70px;
+}
+.technologies{
+    position: absolute;
+    display: flex ;
+}
+.technologies div {
+    margin-left: 30px;
+}
+.technologies div p{
+    margin-top: 8px;
+}
+.one{
+    top: 430px;
+    right: 50px;
+}
+.two{
+    top: 150px;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+.four{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.five{
+    top: 200px;
+    right: 100px;
+}
+.hero{
+    width: 200px;
+    position: absolute;
+    top: 49%;
+    left: 110%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+.specialty{
+    width: 500px;
+    position: absolute;
+    top: 57%;
+    left: 100%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+.scroll{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.scroll h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+#upbtn{
+    width: 20px;
+    cursor: pointer;
+    /* transform: rotate(180deg); */
+}
+#downbtn{
+    width: 20px;
+    cursor: pointer;
+}
+.overlay{
+    width: 200px;
+    height: 0;
+    border-top:  solid #fff;
+    border-right: 400px solid transparent red;
+    border-bottom: 400px solid green;
+    border-left: 400px solid gray;
+    position: absolute;
+    left: 650px;
+    top: 270px;
+}

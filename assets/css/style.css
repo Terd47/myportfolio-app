@@ -37,6 +37,49 @@ footer{
     background-color:  #f0efeb !important;
     padding-bottom: 2.5rem;
 }
+.call-action{
+    width: 200px;
+    height: 0;
+    border-left: 400px ;
+    position: absolute;
+    left: 850px;
+    top: 630px;
+}
+.callto{
+    border-radius: 4px;
+  background-color: #f4511e;
+  border-radius: 15px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.callto span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.callto span:after{
+    content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.callto:hover span{
+    padding-right: 25px;
+}
+.callto:hover span:after{
+    opacity: 1;
+  right: 0;
+}
 #portfolio {
     margin: 10px;
     padding-bottom: 10px;

@@ -4,46 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
   <!-- navigation bar -->
   <section class="is-primary">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation" aria-label="main navigation">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand navbar-item nav-link card-title" href="./index.html">Doh Terdlar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="navbar-brand">
-          <div class="brand-image"><img src="./assets/images/hexagon-code.png" alt="Hex-image" width="40px"></div>
-          <div class="menu-items">
-            <a class="navbar-brand navbar-item nav-link card-title" href="./index.html">Doh Terdlar</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+              <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+          </ul>
+          <ul class="navbar-nav">
+            <div class="nav-item menu-items">
+              <a class="nav-link active navbar-item card-title" href="./portfolio.html">Portfolio</a>
             </div>
-            <div id="navbarMenuHeroA">
-              <div class="navbar-end">
-                <div class="navbar-start">
-                 <div class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-end">
-                     <div class="nav-item menu-items">
-                       <a class="nav-link active navbar-item card-title" href="./index.html">Home</a>
-                     </div>
-                     <div class="nav-item menu-items">
-                       <a class="nav-link active navbar-item card-title" href="./portfolio.html">Portfolio</a>
-                     </div>
-                     <div class="nav-item menu-items">
-                       <a class="nav-link active navbar-item card-title" href="./contact.html">Contact</a>
-                     </div>
-                     <div class="nav-item menu-items">
-                       <a class="nav-link active navbar-item card-title" href="./about.html">About</a>
-                     </div>
-                 </div>
-               </div>
-                 </div>
-               </div>
-        </div>
-        </div>
+              <li class="nav-item">
+                <a class="nav-link active navbar-item card-title" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navbar-item card-title" href="./about.html">About</a>
+              </li>
+          </ul>
       </div>
-    </nav>
+  </nav>
   </section>
 
     <!-- About me section and bio -->
@@ -52,7 +49,7 @@
             <div class="tile is-ancestor">
                 <div class="tile is-4 is-vertical is-parent">
                   <div class="tile is-child box">
-                    <p class="title card-title">About</p>
+                    <p class="title card-title">About Me</p>
                     <figure class="image is-200x150">
                       <!-- main photo -->
                         <img src="./assets/images/Doh1.jpg" alt="myphoto" width="700px">
@@ -62,13 +59,13 @@
                     <!-- links to important sites and pages -->
                     <p class="title card-title">Connect With Me</p>
                     <div>
-                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://github.com/Terd47"><img src="./assets/images/github-icon.jpg" alt="github icon" width="70px">GitHub</a>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://github.com/Terd47"><img src="./assets/images/icons8-github-32.png" alt="github icon" width="70px">GitHub</a>
                     </div>
                     <div>
-                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://www.linkedin.com/in/doh-terdlar-9a17b61ab/"><img src="./assets/images/linkedin.png" alt="github icon" width="50px">LinkedIn</a>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://www.linkedin.com/in/doh-terdlar-9a17b61ab/"><img src="./assets/images/icons8-linkedin-48.png" alt="github icon" width="50px">LinkedIn</a>
                     </div>
                     <div>
-                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber"><img src="./assets/images/youtube-icon.png" alt="github icon" width="50px">YouTube</a>
+                      <a type="button" target="_blank" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="https://www.youtube.com/channel/UCw_unzMe6XX1WL9zXj3gKWg?view_as=subscriber"><img src="./assets/images/icons8-play-button-48.png" alt="github icon" width="50px">YouTube</a>
                     </div>
                     <div>
                       <a type="button" class="button is-primary is-outlined is-medium is-fullwidth card-title" href="">Email: terdlar@gmail.com</a>
@@ -79,8 +76,9 @@
                   <div class="tile is-child box">
                     <!-- Bio section -->
                     <div class="content">
-                    <p class="title card-title">Welcome to my World</p>
-                    <p>Hello and Welcome. My name is <strong>Doh Terdlar</strong> and I am a second year undergraduate student at Southern New
+                    <p class="title card-title">Hello and Welcome</p>
+                    <p>Thank you for taking the time  to look at my work, I am <strong>Doh Terdlar,</strong> a  full stack web developer with great attention to detail,
+                      creative approach to problem solving and an enormous appetite for learning. Currently  second year undergraduate student at Southern New
                         Hampshire University with a major in computer science. Also, I am currently learning full stack
                         Web development at the John hopkins Coding Boot Camp in  Maryland. <br>
 
